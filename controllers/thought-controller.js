@@ -33,7 +33,7 @@ const ThoughtController = {
         }
     },
 
-    async deleteThought(rq, res) {
+    async deleteThought(req, res) {
         try {
             const thought = await Thought.findByIdAndDelete({_id:req.params.thoughtId});
             res.status(200).json(thought);
@@ -61,7 +61,7 @@ const ThoughtController = {
         try {
             const thought = await Thought.findOneAndUpdate(
                 {_id:req.params.thoughtId},
-                {$addToSet: {reactions: req/body}},
+                {$addToSet: {reactions: req.body}},
                 {runValidators: true, new: true}
             );
             thought ? res.json(thought) : res.status(404).json({message: notfound});
