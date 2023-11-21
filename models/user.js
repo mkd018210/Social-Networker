@@ -39,10 +39,10 @@ const userSchema = new Schema(
     }
 );
 
-userSchema.virtuals('friendCount').get(function(){
+userSchema.virtual('friendCount').get(function(){
     return this.friends.lenth;
 });
 
 const User = model('user', userSchema)
 
-module.exports = user
+module.exports = User
