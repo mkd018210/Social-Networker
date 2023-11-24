@@ -1,24 +1,24 @@
 # Social-Networker
 About:
-
+This is a social media netwrok app.
 
 Description:
-
+This app is able to hold lots of information for many different people.
 
 Challenges:
-
+I had trouble getting the information to come up on Insomnia.
 
 Future Development:
-
+For future development I would like to get the app to work correctly.
 
 Motivation:
-
+My motivation was to create a working app that would get me a good grade in class and that people could actually use.
 
 Success:
-
+I don't feel I had many successes with this project but I did input code.
 
 Contributors:
-
+I used the clues for set up from class and then Googled to help me input other code.
 
 User Story:
 AS A social media startup
